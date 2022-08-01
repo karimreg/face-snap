@@ -1,4 +1,5 @@
 .landing-block {
+    margin-top: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -9,3 +10,19 @@
     width: 100%;
     text-align: center;
   }
+
+  button.homeButton {
+    width: -webkit-fill-available;
+    background-color: #93c6f3;
+    /* color: white; */
+    font-family: 'Roboto';
+    height: 27px;
+    border: 1px solid cornflowerblue;
+    cursor: pointer;
+}
+
+button.homeButton:hover {
+  background-color: #0c3253;
+  border: 1px solid cornflowerblue;
+  color: white;
+}
